@@ -1,0 +1,4 @@
+<Statistics xmlns:dp="http://www.datapower.com/schemas/management" xmlns:env="http://www.w3.org/2003/05/soap-envelope" intrinsic="true" name="default">
+  <mAdminState>disabled</mAdminState>
+  <LoadInterval read-only="true">1000</LoadInterval>
+</Statistics>

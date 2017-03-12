@@ -1,0 +1,32 @@
+<LogTarget xmlns:dp="http://www.datapower.com/schemas/management" xmlns:env="http://www.w3.org/2003/05/soap-envelope" intrinsic="true" name="default-log">
+  <mAdminState read-only="true">enabled</mAdminState>
+  <UserSummary read-only="true">Default Domain Log</UserSummary>
+  <Type read-only="true">file</Type>
+  <Priority read-only="true">normal</Priority>
+  <SoapVersion read-only="true">soap11</SoapVersion>
+  <Format read-only="true">text</Format>
+  <TimestampFormat read-only="true">zulu</TimestampFormat>
+  <FixedFormat read-only="true">off</FixedFormat>
+  <Size read-only="true">500</Size>
+  <LocalFile read-only="true">logtemp:///default-log</LocalFile>
+  <ArchiveMode read-only="true">rotate</ArchiveMode>
+  <Rotate read-only="true">3</Rotate>
+  <UseANSIColor read-only="true">off</UseANSIColor>
+  <SyslogFacility read-only="true">user</SyslogFacility>
+  <RateLimit read-only="true">100</RateLimit>
+  <ConnectTimeout read-only="true">60</ConnectTimeout>
+  <IdleTimeout read-only="true">15</IdleTimeout>
+  <ActiveTimeout read-only="true">0</ActiveTimeout>
+  <FeedbackDetection read-only="true">off</FeedbackDetection>
+  <IdenticalEventSuppression read-only="true">off</IdenticalEventSuppression>
+  <IdenticalEventPeriod read-only="true">10</IdenticalEventPeriod>
+  <SSLClientConfigType read-only="true">proxy</SSLClientConfigType>
+  <LogEvents>
+    <Class class="LogLabel">all</Class>
+    <Priority>error</Priority>
+  </LogEvents>
+  <LogEvents>
+    <Class class="LogLabel">mgmt</Class>
+    <Priority>notice</Priority>
+  </LogEvents>
+</LogTarget>

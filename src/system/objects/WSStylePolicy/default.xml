@@ -1,0 +1,6 @@
+<WSStylePolicy xmlns:dp="http://www.datapower.com/schemas/management" xmlns:env="http://www.w3.org/2003/05/soap-envelope" intrinsic="true" name="default">
+  <mAdminState>enabled</mAdminState>
+  <UserSummary>Default Processing Policy</UserSummary>
+  <DefStylesheetForSoap>store:///filter-reject-all.xsl</DefStylesheetForSoap>
+  <DefStylesheetForXsl>store:///identity.xsl</DefStylesheetForXsl>
+</WSStylePolicy>

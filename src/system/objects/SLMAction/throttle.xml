@@ -1,0 +1,5 @@
+<SLMAction xmlns:dp="http://www.datapower.com/schemas/management" xmlns:env="http://www.w3.org/2003/05/soap-envelope" name="throttle">
+  <mAdminState>enabled</mAdminState>
+  <Type>reject</Type>
+  <LogLevel>debug</LogLevel>
+</SLMAction>

@@ -1,0 +1,23 @@
+<XMLManager xmlns:dp="http://www.datapower.com/schemas/management" xmlns:env="http://www.w3.org/2003/05/soap-envelope" name="default-wsrr">
+  <mAdminState>enabled</mAdminState>
+  <UserSummary>WSRR XML-Manager</UserSummary>
+  <CacheSize>256</CacheSize>
+  <SHA1Caching>on</SHA1Caching>
+  <StaticDocumentCalls>on</StaticDocumentCalls>
+  <SearchResults>on</SearchResults>
+  <SupportTxWarn>off</SupportTxWarn>
+  <Memoization>on</Memoization>
+  <ParserLimitsBytesScanned>4194304</ParserLimitsBytesScanned>
+  <ParserLimitsElementDepth>512</ParserLimitsElementDepth>
+  <ParserLimitsAttributeCount>128</ParserLimitsAttributeCount>
+  <ParserLimitsMaxNodeSize>33554432</ParserLimitsMaxNodeSize>
+  <ParserLimitsForbidExternalReferences>on</ParserLimitsForbidExternalReferences>
+  <ParserLimitsExternalReferences>forbid</ParserLimitsExternalReferences>
+  <ParserLimitsMaxPrefixes>1024</ParserLimitsMaxPrefixes>
+  <ParserLimitsMaxNamespaces>1024</ParserLimitsMaxNamespaces>
+  <ParserLimitsMaxLocalNames>60000</ParserLimitsMaxLocalNames>
+  <DocCacheMaxDocs>5000</DocCacheMaxDocs>
+  <DocCacheSize>0</DocCacheSize>
+  <DocMaxWrites>32768</DocMaxWrites>
+  <UserAgent class="HTTPUserAgent">default</UserAgent>
+</XMLManager>

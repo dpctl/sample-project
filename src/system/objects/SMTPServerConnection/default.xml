@@ -1,0 +1,8 @@
+<SMTPServerConnection xmlns:dp="http://www.datapower.com/schemas/management" xmlns:env="http://www.w3.org/2003/05/soap-envelope" intrinsic="true" name="default">
+  <mAdminState>enabled</mAdminState>
+  <UserSummary>Default SMTP Server Connection</UserSummary>
+  <MailServerHost>smtp</MailServerHost>
+  <MailServerPort>25</MailServerPort>
+  <Auth>plain</Auth>
+  <SSLClientConfigType>proxy</SSLClientConfigType>
+</SMTPServerConnection>

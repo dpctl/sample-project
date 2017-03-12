@@ -1,0 +1,20 @@
+<SSHServerProfile xmlns:dp="http://www.datapower.com/schemas/management" xmlns:env="http://www.w3.org/2003/05/soap-envelope" intrinsic="true" name="default">
+  <mAdminState>enabled</mAdminState>
+  <Ciphers>CHACHA20-POLY1305_AT_OPENSSH.COM</Ciphers>
+  <Ciphers>AES128-CTR</Ciphers>
+  <Ciphers>AES192-CTR</Ciphers>
+  <Ciphers>AES256-CTR</Ciphers>
+  <Ciphers>AES128-GCM_AT_OPENSSH.COM</Ciphers>
+  <Ciphers>AES256-GCM_AT_OPENSSH.COM</Ciphers>
+  <Ciphers>ARCFOUR256</Ciphers>
+  <Ciphers>ARCFOUR128</Ciphers>
+  <Ciphers>AES128-CBC</Ciphers>
+  <Ciphers>3DES-CBC</Ciphers>
+  <Ciphers>BLOWFISH-CBC</Ciphers>
+  <Ciphers>CAST128-CBC</Ciphers>
+  <Ciphers>AES192-CBC</Ciphers>
+  <Ciphers>AES256-CBC</Ciphers>
+  <Ciphers>ARCFOUR</Ciphers>
+  <Ciphers>RIJNDAEL-CBC_AT_LYSATOR.LIU.SE</Ciphers>
+  <LegacyKex>no</LegacyKex>
+</SSHServerProfile>

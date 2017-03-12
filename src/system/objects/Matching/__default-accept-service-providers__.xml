@@ -1,0 +1,16 @@
+<Matching xmlns:dp="http://www.datapower.com/schemas/management" xmlns:env="http://www.w3.org/2003/05/soap-envelope" intrinsic="true" name="__default-accept-service-providers__" read-only="true">
+  <mAdminState>enabled</mAdminState>
+  <UserSummary>Match all messages.</UserSummary>
+  <MatchRules>
+    <Type>url</Type>
+    <HttpTag/>
+    <HttpValue/>
+    <Url>*</Url>
+    <ErrorCode/>
+    <XPATHExpression/>
+    <Method>default</Method>
+    <CustomMethod/>
+  </MatchRules>
+  <MatchWithPCRE>off</MatchWithPCRE>
+  <CombineWithOr>off</CombineWithOr>
+</Matching>

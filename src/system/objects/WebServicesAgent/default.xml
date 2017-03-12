@@ -1,0 +1,10 @@
+<WebServicesAgent xmlns:dp="http://www.datapower.com/schemas/management" xmlns:env="http://www.w3.org/2003/05/soap-envelope" intrinsic="true" name="default">
+  <mAdminState>disabled</mAdminState>
+  <MaxRecords>3000</MaxRecords>
+  <MaxMemoryKB>64000</MaxMemoryKB>
+  <CaptureMode>faults</CaptureMode>
+  <BufferMode>discard</BufferMode>
+  <MediationMetrics>off</MediationMetrics>
+  <PushInterval>100</PushInterval>
+  <PushPriority>normal</PushPriority>
+</WebServicesAgent>

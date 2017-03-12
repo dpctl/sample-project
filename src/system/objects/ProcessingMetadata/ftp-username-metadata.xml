@@ -1,0 +1,28 @@
+<ProcessingMetadata xmlns:dp="http://www.datapower.com/schemas/management" xmlns:env="http://www.w3.org/2003/05/soap-envelope" intrinsic="true" name="ftp-username-metadata">
+  <mAdminState>enabled</mAdminState>
+  <MetaItem>
+    <MetaCategory>variable</MetaCategory>
+    <MetaName>dn</MetaName>
+    <DataSource>var://context/INPUT/ftp/tls/client-subject-dn</DataSource>
+  </MetaItem>
+  <MetaItem>
+    <MetaCategory>variable</MetaCategory>
+    <MetaName>issuer</MetaName>
+    <DataSource>var://context/INPUT/ftp/tls/client-issuer-dn</DataSource>
+  </MetaItem>
+  <MetaItem>
+    <MetaCategory>variable</MetaCategory>
+    <MetaName>password</MetaName>
+    <DataSource>var://context/INPUT/ftp/password</DataSource>
+  </MetaItem>
+  <MetaItem>
+    <MetaCategory>variable</MetaCategory>
+    <MetaName>serial</MetaName>
+    <DataSource>var://context/INPUT/ftp/tls/client-serial-number</DataSource>
+  </MetaItem>
+  <MetaItem>
+    <MetaCategory>variable</MetaCategory>
+    <MetaName>username</MetaName>
+    <DataSource>var://context/INPUT/ftp/username</DataSource>
+  </MetaItem>
+</ProcessingMetadata>

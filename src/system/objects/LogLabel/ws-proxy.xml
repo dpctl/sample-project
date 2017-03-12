@@ -1,0 +1,5 @@
+<LogLabel xmlns:dp="http://www.datapower.com/schemas/management" xmlns:env="http://www.w3.org/2003/05/soap-envelope" intrinsic="true" name="ws-proxy" read-only="true">
+  <mAdminState read-only="true">enabled</mAdminState>
+  <UserSummary read-only="true">Web Service Proxy</UserSummary>
+  <Type read-only="true">pre-defined</Type>
+</LogLabel>

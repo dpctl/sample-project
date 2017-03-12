@@ -1,0 +1,13 @@
+<NFSDynamicMounts xmlns:dp="http://www.datapower.com/schemas/management" xmlns:env="http://www.w3.org/2003/05/soap-envelope" intrinsic="true" name="default">
+  <mAdminState>disabled</mAdminState>
+  <Version>3</Version>
+  <Transport>tcp</Transport>
+  <MountType>hard</MountType>
+  <ReadOnly>off</ReadOnly>
+  <ReadSize>4096</ReadSize>
+  <WriteSize>4096</WriteSize>
+  <Timeout>7</Timeout>
+  <Retransmissions>3</Retransmissions>
+  <IdleUnmountSeconds>900</IdleUnmountSeconds>
+  <MountTimeoutSeconds>30</MountTimeoutSeconds>
+</NFSDynamicMounts>

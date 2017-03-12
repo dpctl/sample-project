@@ -1,0 +1,15 @@
+<StylePolicy xmlns:dp="http://www.datapower.com/schemas/management" xmlns:env="http://www.w3.org/2003/05/soap-envelope" intrinsic="true" name="default-accept-service-providers" read-only="true">
+  <mAdminState>enabled</mAdminState>
+  <UserSummary>Default Processing Policy which accepts only messages that match known WSRR services in a Multi-Protocol Gateway.</UserSummary>
+  <DefStylesheetForSoap>store:///filter-reject-all.xsl</DefStylesheetForSoap>
+  <DefStylesheetForXsl>store:///identity.xsl</DefStylesheetForXsl>
+  <DefXQueryForJSON>store:///reject-all-json.xq</DefXQueryForJSON>
+  <PolicyMaps>
+    <Match class="Matching">__default-accept-service-providers__</Match>
+    <Rule class="StylePolicyRule">__default-accept-service-providers-request__</Rule>
+  </PolicyMaps>
+  <PolicyMaps>
+    <Match class="Matching">__default-accept-service-providers__</Match>
+    <Rule class="StylePolicyRule">__default-accept-service-providers-response__</Rule>
+  </PolicyMaps>
+</StylePolicy>

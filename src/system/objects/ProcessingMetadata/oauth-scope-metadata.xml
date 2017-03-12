@@ -1,0 +1,8 @@
+<ProcessingMetadata xmlns:dp="http://www.datapower.com/schemas/management" xmlns:env="http://www.w3.org/2003/05/soap-envelope" intrinsic="true" name="oauth-scope-metadata">
+  <mAdminState>enabled</mAdminState>
+  <MetaItem>
+    <MetaCategory>variable</MetaCategory>
+    <MetaName>scope</MetaName>
+    <DataSource>var://context/INPUT/oauth/verified-scope</DataSource>
+  </MetaItem>
+</ProcessingMetadata>
